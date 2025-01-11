@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fefae0;
+    text-align: center;
+}
+
+.container{
+    height: 70vh; /*Viewport Height*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1vmin;
+}
+
+.box{
+    height: 18vmin; /* 1% of the viewport's smaller dimensions*/
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.25);
+    font-size: 8vmin;
+    background-color: #e9edc9;
+    color: #000;
+}
+
+.btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #d4a373;
+}
+
+#msg{
+    color: #d4a373;
+}
+
+.msgContainer{
+    margin: 10vmin 0;
+}
+
+.hide{
+    display: none;
+}
+
+.O{
+    background-color: #ccd5ae;
+}
+
+.X{
+    background-color: #fefae0;
+}
+
